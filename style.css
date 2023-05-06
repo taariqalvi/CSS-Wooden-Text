@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: sans-serif;
-    background: url("images/wood1.jpg");
+    background: url("images/floor-1256804.jpg"); /** change any backcground here and beneath(h1) together **/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -19,10 +19,12 @@ h1 {
     font-size: 10em;
     text-transform: uppercase;
     text-align: center;
-    background: url("images/wood1.jpg");
+    background: url("images/floor-1256804.jpg"); /** change any backcground here and above(body) together **/
     background-attachment: fixed;
     background-clip: text;
     -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: transparent;
 }
 
